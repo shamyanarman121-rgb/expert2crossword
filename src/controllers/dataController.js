@@ -6,7 +6,7 @@ const processData = async (req, res) => {
     console.log("Data received from client:", data);
     
     // Replace with the actual external API URL
-    const externalApiUrl = 'https://hook.eu2.make.com/ogvgn9sz77vuwy6phdm9ag5fgjlyceaw'; 
+    const externalApiUrl = 'https://totogaming.app.n8n.cloud/webhook/86d60b2a-0d2b-4b1d-a21d-39c1e20530a5'; 
 
     const response = await axios.post(externalApiUrl, {
       ...data,
