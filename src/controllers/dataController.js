@@ -6,7 +6,7 @@ const processData = async (req, res) => {
     console.log("Data received from client:", data);
     
     // Replace with the actual external API URL
-    const externalApiUrl = 'https://hook.eu2.make.com/h15yjqp63i849cmah8rh15378it6dwky'; 
+    const externalApiUrl = 'https://hook.eu2.make.com/ogvgn9sz77vuwy6phdm9ag5fgjlyceaw'; 
 
     const response = await axios.post(externalApiUrl, {
       ...data,
